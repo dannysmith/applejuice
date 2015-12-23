@@ -25,8 +25,8 @@ To spin the app up, you can either use rack (`rackup config.ru`). If you have th
 - [X] Commit and push to GitHub - write up
 - [X] Create a Slack room and connect to GitHub - write up
 - [X] Create a Codeship Build and connect to GitHub and Slack - write up
-- [ ] Create a Heroku app that tracks master - write up
-- [ ] Create a Heroku app that tracks production & DNS - write up
+- [X] Create a Heroku app that tracks master - write up
+- [X] Create a Heroku app that tracks production & DNS - write up
 - [ ] Configure Codeship to Deploy these branches - write up
 - [ ] Configure HoundCI to comment (don't forget .hound.yml) - write up
 - [ ] Configure waffle.io as a task board - write up
