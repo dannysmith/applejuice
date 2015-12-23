@@ -23,8 +23,8 @@ To spin the app up, you can either use rack (`rackup config.ru`). If you have th
 - [X] Get Capybara test working
 - [X] Get Rspec routing tests working
 - [X] Commit and push to GitHub - write up
-- [ ] Create a Slack room and connect to GitHub - write up
-- [ ] Create a Codeship Build and connect to GitHub and Slack - write up
+- [X] Create a Slack room and connect to GitHub - write up
+- [X] Create a Codeship Build and connect to GitHub and Slack - write up
 - [ ] Create a Heroku app that tracks master - write up
 - [ ] Create a Heroku app that tracks production & DNS - write up
 - [ ] Configure Codeship to Deploy these branches - write up
