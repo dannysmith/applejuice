@@ -2,13 +2,15 @@ require 'better_errors'
 require 'sinatra/base'
 
 class AppleJuice < Sinatra::Base
-  configure :development do
-    use BetterErrors::Middleware
-    BetterErrors.application_root = __dir__
+
+  if ENV['RACK_ENV'] != 'production'
+    configure :development do
+      use BetterErrors::Middleware
+      BetterErrors.application_root = __dir__
+    end
   end
 
   get '/' do
-    puts ENV['RACK_ENV']
     redirect '/login'
   end
 
