@@ -17,19 +17,3 @@ rubocop # Check ruby style and syntax is ok
 
 To spin the app up, you can either use rack (`rackup config.ru`). If you have the Heroku toolbelt installed you can use `heroku local`.
 
-### To Do
-
-- [X] Build basic structure
-- [X] Get Capybara test working
-- [X] Get Rspec routing tests working
-- [X] Commit and push to GitHub - write up
-- [X] Create a Slack room and connect to GitHub - write up
-- [X] Create a Codeship Build and connect to GitHub and Slack - write up
-- [X] Create a Heroku app that tracks master - write up
-- [X] Create a Heroku app that tracks production & DNS - write up
-- [ ] Configure Codeship to Deploy these branches - write up
-- [ ] Configure HoundCI to comment (don't forget .hound.yml) - write up
-- [ ] Configure waffle.io as a task board - write up
-- [ ] Configure /bugbot to work with Slack - write up
-- [ ] Work through feature-branch workflow - write up
-- [ ] Rollback repo to start state
