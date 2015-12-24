@@ -26,6 +26,16 @@ class AppleJuice < Sinatra::Base
     end
   end
 
+  get "/dosomething/:id" do
+
+
+
+    if params[:id].match /\d/
+
+      redirect login #This is just dummy stuff
+    end
+  end
+
   get '/dashboard' do
     erb :dashboard
   end
