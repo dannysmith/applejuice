@@ -1,7 +1,6 @@
 require 'sinatra/base'
 
 class AppleJuice < Sinatra::Base
-
   configure :development do
     require 'better_errors'
     use BetterErrors::Middleware
@@ -23,16 +22,6 @@ class AppleJuice < Sinatra::Base
     else
       status 403
       "403 Forbidden"
-    end
-  end
-
-  get "/dosomething/:id" do
-
-
-
-    if params[:id].match /\d/
-
-      redirect login #This is just dummy stuff
     end
   end
 
